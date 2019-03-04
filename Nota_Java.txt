@@ -1,3 +1,16 @@
+method averloading
+- method nama sama, param xsama
+
+methos overriding
+- replace method
+
+CLASS & OBJECT 
+Analogi Kuih Bahulu
+CLASS   => Loyang/Acuan
+OBJECT => Bahulu pelbagai bentuk, perisa (Output)
+
+JAVA Requirement
+===============
 1. download JDK dari oracle website
   
 2. install
