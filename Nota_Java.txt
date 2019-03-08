@@ -1,3 +1,81 @@
+DAY 3
+=====
+Utk tukar port service tomcat 8080
+i) go to apache-tomcat folder
+   => C:\apache-tomcat-9.0.0.M26\conf\server.xml
+        line 69
+	<Connector port="8080" protocol="HTTP/1.1"
+               connectionTimeout="20000"
+               redirectPort="8443" />
+       tukar port="8080"
+ii) Netbean
+    Menu Tools-> Servers->Server port
+
+Tomcat
+======
+- download manually [ _/]
+- xampp [x]
+
+javac -cp /c/apache-tomcat-9.0.0.M26/lib/servlet-api.jar HelloWorldExample.java
+   |       |-> class path  
+   v
+to compile         
+
+Revision Day 1-2
+==============
+- Java Basic - belajar <>50 syntax (class, void, int)
+- passing by value (primitive + String) => ubah value pada function, tidak akan mengubah value asal
+- passing by reference (Object) => ubah pada function, akan mengubah value asal
+
+* Package - naming mesti unique
+* Interface -  declaration sahaja tiada implementation
+* Error handling : 
+	try { 
+	} catch (Exception e) {
+	} finally {
+	    //always execute samada ada error atau tidak
+	}
+
+*JEE
+   -  web
+   -  Tomcat 9
+   -  JAVA_HOME
+   -  port : 8080
+   -  create webapps/examples
+                  webapps/tutorial/index.html
+	- WEB-INF
+	- web.xml
+	- classes
+	  HelloServlet.class
+   - create Java web project dlm netbeans
+      -  run tomcat dalam netbeans
+
+
+DAY 2
+======
+Passing BY VALUE (primitive + String) => fotostat
+Passing BY REFERENCE (Object)          => x fotostat
+
+2) Working with Database Using JDBC Driver
+    i- JDBC driver (Java Database Connectivity)
+
+JDK
+ I-> Library
+      java.lang
+         |--> String
+     java.net
+     java.awt
+     java.swing
+     ...
+     java.sql
+          |--> Connection
+	Statement
+	ResultSet
+
+
+
+DAY 1
+=====
 method averloading
 - method nama sama, param xsama
 

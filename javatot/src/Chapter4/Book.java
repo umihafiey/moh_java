@@ -13,7 +13,7 @@ public class Book {
     public static void cetak() {
         System.out.println("Jumlah buku " + Book.bil);
     }
-    
+      
     Book() {
         Book.bil = Book.bil + 1;
         System.out.println("Bil buku = " + Book.bil);
