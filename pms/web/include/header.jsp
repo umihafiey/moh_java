@@ -1,7 +1,11 @@
+<%@page import="models.UserModel"%>
 <%
     if(session.getAttribute("loggedin") == null) {
         response.sendRedirect("/pms/pub/login.jsp");
+        return;
     }
+    //casting
+    UserModel user = (UserModel)session.getAttribute("user");
 %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -13,5 +17,5 @@
         <title>PMS</title>
     </head>
     <body>
-        <h4>Project Management System (PMS)</h4>
+        <h4><%= user.getName() %></h4> (<a href="/pms/login?logout">Logout</a>)
   

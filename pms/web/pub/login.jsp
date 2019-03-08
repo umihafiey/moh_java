@@ -19,7 +19,7 @@
                 <div>Staff Id</div>
                 <div><input class="form-control" type="text" name="staff_id"></div>
                 <div>Password</div>
-                <div><input class="form-control" type="text" name="password"></div>
+                <div><input class="form-control" type="text" name="pwd"></div>
                 <div><input class="btn btn-primary" type="submit" value="Login"></div>   
             </form>
         </div>
